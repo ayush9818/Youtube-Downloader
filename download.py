@@ -63,4 +63,5 @@ def main():
     download_video(index_to_url[download_index]['link'],index_to_url[download_index]['video_name'])
 
 
-main()
+if __name__ == "__main__":
+    main()
